@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="Type" />
+
+    <TextView
+        android:id="@+id/cellId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="CID" />
+
+    <TextView
+        android:id="@+id/locationAreaCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="LAC" />
+
+    <TextView
+        android:id="@+id/mobileCountryCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="MCC" />
+
+    <TextView
+        android:id="@+id/mobileNetworkCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="MNC" />
+
+    <TextView
+        android:id="@+id/earfcn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="EARFCN" />
+
+    <TextView
+        android:id="@+id/bandwidth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="Bandwidth" />
+
+    <TextView
+        android:id="@+id/signalStrength"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="dBm" />
+
+    <TextView
+        android:id="@+id/operator"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="Operator" />
+
+    <TextView
+        android:id="@+id/firstSeen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="First Seen" />
+
+    <TextView
+        android:id="@+id/lastSeen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10sp"
+        android:padding="4dp"
+        android:text="Last Seen" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/cell_tower_24px"
+        android:title="Cells"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/navigation_log"
+        android:icon="@drawable/article_24px"
+        android:title="Logs"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/settings_24px"
+        android:title="Settings"
+        tools:ignore="HardcodedText" />
+
+</menu>
