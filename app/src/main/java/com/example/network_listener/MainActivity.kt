@@ -624,7 +624,6 @@ class MainActivity : AppCompatActivity() {
         try {
             FileWriter(logFile, true).use { writer ->
                 writer.append("${cellInfo.firstSeen}, ${cellInfo.lastSeen}, ${cellInfo.type}, ${cellInfo.cellId}, ${cellInfo.locationAreaCode}, ${cellInfo.mobileCountryCode}, ${cellInfo.mobileNetworkCode}, ${cellInfo.signalStrength}, ${cellInfo.operator}, ${cellInfo.earfcn}, ${cellInfo.bandwidth}\n")
-                Log.d("logCellInfo", cellInfo.toString())
             }
         } catch (e: IOException) {
             e.printStackTrace()

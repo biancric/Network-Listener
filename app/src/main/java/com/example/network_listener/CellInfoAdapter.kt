@@ -1,5 +1,6 @@
 package com.example.network_listener
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -56,6 +57,7 @@ class CellInfoAdapter(private val cellInfoList: MutableList<CellInfoModel>) : Re
     }
 
     // Update the data in the adapter and notify the RecyclerView to refresh
+    @SuppressLint("NotifyDataSetChanged")
     fun updateData(newCellInfoList: List<CellInfoModel>) {
         cellInfoList.clear()
         cellInfoList.addAll(newCellInfoList)

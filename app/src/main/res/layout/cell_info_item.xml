@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
@@ -12,7 +13,8 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="Type" />
+        android:text="Type"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <TextView
         android:id="@+id/cellId"
@@ -21,7 +23,8 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="CID" />
+        android:text="CID"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <TextView
         android:id="@+id/locationAreaCode"
@@ -30,7 +33,8 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="LAC" />
+        android:text="LAC"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <TextView
         android:id="@+id/mobileCountryCode"
@@ -39,7 +43,8 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="MCC" />
+        android:text="MCC"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <TextView
         android:id="@+id/mobileNetworkCode"
@@ -48,7 +53,8 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="MNC" />
+        android:text="MNC"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <TextView
         android:id="@+id/earfcn"
@@ -57,7 +63,8 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="EARFCN" />
+        android:text="EARFCN"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <TextView
         android:id="@+id/bandwidth"
@@ -66,7 +73,8 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="Bandwidth" />
+        android:text="Bandwidth"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <TextView
         android:id="@+id/signalStrength"
@@ -75,7 +83,8 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="dBm" />
+        android:text="dBm"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <TextView
         android:id="@+id/operator"
@@ -84,7 +93,8 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="Operator" />
+        android:text="Operator"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <TextView
         android:id="@+id/firstSeen"
@@ -93,7 +103,8 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="First Seen" />
+        android:text="First Seen"
+        tools:ignore="HardcodedText,SmallSp" />
 
     <TextView
         android:id="@+id/lastSeen"
@@ -102,5 +113,6 @@
         android:layout_weight="1"
         android:textSize="10sp"
         android:padding="4dp"
-        android:text="Last Seen" />
+        android:text="Last Seen"
+        tools:ignore="HardcodedText,SmallSp" />
 </LinearLayout>
